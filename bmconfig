@@ -1,0 +1,107 @@
+{
+  "roleName": "BM",
+  "productType": "magmaSmeLeadV1",
+  "productLabel": "SME Loans",
+  "bucketList": [
+    {
+      "id": "leads",
+      "label": "Leads",
+      "editable": false,
+      "redirectToDetails": false,
+      "comment": 0,
+      "variables": [
+        {
+          "id": "leadId",
+          "label": "LEAD ID",
+          "type": "String",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "mainApplicantNameMA_karza_sme",
+          "label": " APPLICANT NAME",
+          "type": "String",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "panMA_user_sme",
+          "label": "PAN",
+          "type": "String",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "pincodeMA_karza_sme",
+          "label": "PIN CODE",
+          "type": "Number",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "requiredAmount_user_sme",
+          "label": "REQUIRED AMOUNT",
+          "type": "Number",
+          "actionConfigurationList": []
+        }
+      ],
+      "bucketActions": []
+    },
+    {
+      "id": "qsrDeviations",
+      "label": "QSR Deviations",
+      "editable": false,
+      "redirectToDetails": true,
+      "comment": 0,
+      "variables": [
+        {
+          "id": "leadId",
+          "label": "LEAD ID",
+          "type": "String",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "mainApplicantNameMA_karza_sme",
+          "label": " APPLICANT NAME",
+          "type": "String",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "panMA_user_sme",
+          "label": "PAN",
+          "type": "String",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "pincodeMA_karza_sme",
+          "label": "PIN CODE",
+          "type": "Number",
+          "actionConfigurationList": []
+        },
+        {
+          "id": "requiredAmount_user_sme",
+          "label": "REQUIRED AMOUNT",
+          "type": "Number",
+          "actionConfigurationList": []
+        }
+      ],
+      "bucketActions": []
+    }
+  ],
+  "productActionList": [
+    {
+      "id": "createLead",
+      "label": "Create Lead",
+      "params": {
+        "meta": {
+          "journeyName": "magmaSmeLeadV1",
+          "default": "",
+          "disabled": false,
+          "form_type": "button",
+          "placeholder": "",
+          "type": "triggerJourney",
+          "required": false,
+          "token": true
+        }
+      },
+      "iconKey": "TRIGGER",
+      "value": false
+    }
+  ]
+}
